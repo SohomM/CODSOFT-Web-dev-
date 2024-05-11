@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      animation: fadeInLeft 1s ease-out;
+    }
+
+    .feature {
+      width: 30%;
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    .cta-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    .testimonial {
+      margin: 20px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      animation: fadeInRight 1s ease-out;
+    }
+
+    .hero {
+      width: 100%;
+      height: auto;
+      animation: fadeIn 1s ease-out;
+    }
+
+    .about-us {
+      padding: 20px;
+      animation: fadeInLeft 1s ease-out;
+    }
+
+    .contact-form {
+      margin: 20px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      animation: fadeInRight 1s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInLeft {
+      0% {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeInRight {
+      0% {
+        opacity: 0;
+        transform: translateX(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Landing Page</h1>
+    <a href="#" class="cta-button">Sign Up Now</a>
+  </header>
+
+  <section class="features">
+    <div class="feature">
+      <h2>Feature 1</h2>
+      <p>Description of feature 1.</p>
+    </div>
+    <div class="feature">
+      <h2>Feature 2</h2>
+      <p>Description of feature 2.</p>
+    </div>
+    <div class="feature">
+      <h2>Feature 3</h2>
+      <p>Description of feature 3.</p>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="testimonial">
+      <p>"Great product! It helped me solve my problem quickly and efficiently."</p>
+      <p>- John Doe</p>
+    </div>
+    <div class="testimonial">
+      <p>"I couldn't be happier with the results. Highly recommend!"</p>
+      <p>- Jane Smith</p>
+    </div>
+  </section>
+
+  <section class="about-us">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec justo eu nulla scelerisque rutrum.</p>
+  </section>
+
+  <section class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4"></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Landing Page Project</p>
+  </footer>
+</body>
+</html>

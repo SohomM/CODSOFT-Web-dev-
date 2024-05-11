@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+
+    header, .section, footer {
+      text-align: center;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .section {
+      padding: 20px;
+    }
+
+    .bio img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    /* Additional styles */
+    .portfolio-carousel {
+      margin-top: 20px;
+      overflow-x: auto;
+      white-space: nowrap;
+      scrollbar-width: thin;
+      scrollbar-color: #888 #ddd;
+    }
+
+    .portfolio-item {
+      display: inline-block;
+      margin-right: 20px;
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .portfolio-item img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    .skill-level {
+      margin-top: 10px;
+    }
+
+    /* Custom scrollbar style */
+    .portfolio-carousel::-webkit-scrollbar {
+      width: 12px;
+    }
+
+    .portfolio-carousel::-webkit-scrollbar-thumb {
+      background-color: #888;
+      border-radius: 6px;
+    }
+
+    .portfolio-carousel::-webkit-scrollbar-thumb:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SOHOM MUKHERJEE</h1>
+    <p>Web Developer Internship Project</p>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="bio">
+      <img src="profilepic.png" alt="Your Name">
+      <p>KIIT CSE 2026</p>
+<p>DPS JUNIOR | DPS RUBY PARK KOLKATA 2007-2022</p>
+<p>working with Nebula Space Organisation as a software developer and data scientist </p>
+<p>worked with RnPsoft pvt ltd as visual content manager and team lead for a startup company </p>
+
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML <span class="skill-level">(Intermediate)</span></li>
+      <li>CSS <span class="skill-level">(Intermediate)</span></li>
+      <li>JavaScript <span class="skill-level">(Intermediate)</span></li>
+      
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="portfolio-carousel">
+      <div class="portfolio-item">
+        <h3>Project 1</h3>
+        <p>Calculator using html,css and js</p>
+        <img src="project1.png" alt="Project 1">
+      </div>
+      <div class="portfolio-item">
+        <h3>Project 2</h3>
+        <p>Graphical Analysis</p>
+        <img src="project2.png" alt="Project 2">
+      </div>
+      <!-- Add more projects here -->
+    </div>
+  </section>
+
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <a href="your_resume.pdf" target="_blank">Download Resume</a>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p><a href="https://in.linkedin.com/in/sohom-mukherjee">move to LinkedIn</a></p>
+    <p>Email: your.email@example.com</p>
+    <p>Phone: +91907425****</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 SOHOM MUKHERJEE</p>
+  </footer>
+</body>
+</html>
